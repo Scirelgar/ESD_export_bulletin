@@ -13,9 +13,9 @@ Version: 1.0
 SETLOCAL EnableExtensions ENABLEDELAYEDEXPANSION
 
 :: Variables
-set dirInput=C:\Users\samue\ï¿½cole Secondaire Duval\Site ï¿½tablissements scolaires - Partage de fichier\input
-set dirNuage=C:\Users\samue\ï¿½cole Secondaire Duval\Site ï¿½tablissements scolaires - Partage de fichier\Nuage(output)
-set dirEngine=C:\Users\samue\ï¿½cole Secondaire Duval\Site ï¿½tablissements scolaires - Partage de fichier\Engine
+set dirInput=C:\Users\samue\École Secondaire Duval\Site Établissements scolaires - Partage de fichier\input
+set dirNuage=C:\Users\samue\École Secondaire Duval\Site Établissements scolaires - Partage de fichier\Nuage(output)
+set dirEngine=C:\Users\samue\École Secondaire Duval\Site Établissements scolaires - Partage de fichier\Engine
 set folderName=
 set folderA=
 set folderB=
