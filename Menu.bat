@@ -13,12 +13,13 @@ Version: 1.0
 SETLOCAL EnableExtensions ENABLEDELAYEDEXPANSION
 
 :: Variables
-set dirEngine=C:\Users\samue\École Secondaire Duval\Site Établissements scolaires - Partage de fichier\Engine
+set dirEngine=C:\Users\samue\ï¿½cole Secondaire Duval\Site ï¿½tablissements scolaires - Partage de fichier\Engine
 
 :: Programme principal
 :main
 cd "%dirEngine%"
 echo.
+echo Menu
 echo 1. Creer des sous dossiers
 echo 2. Effacer des sous dossiers
 echo 3. Copier des bulletins

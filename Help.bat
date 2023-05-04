@@ -3,7 +3,7 @@
 chcp 1252>nul
 
 goto :Commentaire
-Ce script imprime la documentation du programme.
+Ce script renvoi l'utilisateur à la documentation en ligne du programme.
 
 Auteur: Samuel Richard
 Date: 2023-05-03
@@ -18,7 +18,9 @@ SETLOCAL EnableExtensions ENABLEDELAYEDEXPANSION
 :main
 echo.
 
-pause
+start "" https://github.com/Scirelgar/ESD_export_bulletin#programme-dexport-des-bulletins
+
+timeout /t 5 >nul
 
 Exit /b %errorlevel%
 
