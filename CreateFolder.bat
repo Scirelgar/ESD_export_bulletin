@@ -22,7 +22,6 @@ set dirNuage=C:\Users\samue\École Secondaire Duval\Site Établissements scolaires
 set dirEngine=C:\Users\samue\École Secondaire Duval\Site Établissements scolaires - Partage de fichier\Engine
 set folderA=
 set folderName=
-set
 SETLOCAL EnableExtensions ENABLEDELAYEDEXPANSION
 
 :: Programme principal
