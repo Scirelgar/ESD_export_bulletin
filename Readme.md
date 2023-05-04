@@ -28,7 +28,7 @@ Le répertoire destination contient les dossiers de toutes les écoles identifi�
 <img
 		src="./assets/Capture_Structure.jpg"
 		title="structure du répertoire"
-        width="500"
+        width="720"
         height="auto"
     />
 
