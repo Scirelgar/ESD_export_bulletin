@@ -17,9 +17,9 @@ Version: 1.0
 :Commentaire
 
 :: Variables
-set dirInput=C:\Users\samue\École Secondaire Duval\Site Établissements scolaires - Partage de fichier\input
-set dirNuage=C:\Users\samue\École Secondaire Duval\Site Établissements scolaires - Partage de fichier\Nuage(output)
-set dirEngine=C:\Users\samue\École Secondaire Duval\Site Établissements scolaires - Partage de fichier\Engine
+set dirInput=C:\Users\samue\ï¿½cole Secondaire Duval\Site ï¿½tablissements scolaires - Partage de fichier\input
+set dirNuage=C:\Users\samue\ï¿½cole Secondaire Duval\Site ï¿½tablissements scolaires - Partage de fichier\Nuage(output)
+set dirEngine=C:\Users\samue\ï¿½cole Secondaire Duval\Site ï¿½tablissements scolaires - Partage de fichier\Engine
 set folderA=
 set folderName=
 
@@ -75,7 +75,7 @@ goto :eof
 :: Si l'utilisateur ne confirme pas son choix, la fonction se rappelle
 :: Si l'utilisateur confirme son choix, la fonction se termine
 :folderNamePrompt
-set /p "folderName=Entrez le nom des nouveaux dossiers de session (ex.Ete2022): "
+set /p "folderName=Entrez le nom des nouveaux dossiers de session, sans espace (ex.Ete2022): "
 call :confirmationfct %folderName%, approve
 if %approve%==0 (echo Vous avez repondu "Non" & goto :folderNamePrompt)
 if %approve%==1 (echo Vous avec repondu "Oui". Appuyez sur une touche pour continuer...)
