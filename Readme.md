@@ -50,3 +50,7 @@ Cette option permet de supprimer les dossiers de session dans tous les dossiers 
 ### Options 3: Exporter les bulletins
 
 Cette option permet d'exporter les bulletins dans les dossiers de session correspondants. Le programme vérifie si le dossier de session existe déjà et affiche un message d'erreur si ce n'est pas le cas. Le programme affiche un message de confirmation lorsque l'opération est terminée.
+
+## Problèmes connus
+
+La commande PowerShell `Copy-Item` dans `CopyBulletins.bat` ne fonctionne par pour les répertoires contenant des apostrophes. Par exemple, le répertoire `075501 - Collège de l'Ouest de l'île (1981) inc` ne peut pas être copié. La solution est de renommer le répertoire sans apostrophe. Par exemple, `075501 - Collège de l'Ouest de l'île (1981) inc` devient `075501 - Collège de lOuest de lîle (1981) inc`.
