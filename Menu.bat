@@ -13,7 +13,7 @@ Version: 1.0
 SETLOCAL EnableExtensions ENABLEDELAYEDEXPANSION
 
 :: Variables
-set dirEngine=C:\Users\samue\École Secondaire Duval\Site Établissements scolaires - Partage de fichier\Engine
+set dirEngine=%USERPROFILE%\École Secondaire Duval\Communications Interscolaire ESD - Partage de fichiers\Engine
 
 :: Programme principal
 :main

@@ -11,7 +11,7 @@ Version: 1.0
 :Commentaire
 
 :: Variables
-set dirNuage=C:\Users\samue\École Secondaire Duval\Site Établissements scolaires - Partage de fichier\Nuage(output)
+set dirNuage=%USERPROFILE%\École Secondaire Duval\Communications Interscolaire ESD - Partage de fichiers\Nuage(output)
 set folderA=
 set folderName=
 

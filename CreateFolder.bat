@@ -17,9 +17,9 @@ Version: 1.0
 :Commentaire
 
 :: Variables
-set dirInput=C:\Users\samue\École Secondaire Duval\Site Établissements scolaires - Partage de fichier\input
-set dirNuage=C:\Users\samue\École Secondaire Duval\Site Établissements scolaires - Partage de fichier\Nuage(output)
-set dirEngine=C:\Users\samue\École Secondaire Duval\Site Établissements scolaires - Partage de fichier\Engine
+set dirInput=%USERPROFILE%\École Secondaire Duval\Communications Interscolaire ESD - Partage de fichiers\input
+set dirNuage=%USERPROFILE%\École Secondaire Duval\Communications Interscolaire ESD - Partage de fichiers\Nuage(output)
+set dirEngine=%USERPROFILE%\École Secondaire Duval\Communications Interscolaire ESD - Partage de fichiers\Engine
 set folderA=
 set folderName=
 SETLOCAL EnableExtensions ENABLEDELAYEDEXPANSION
