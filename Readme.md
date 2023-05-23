@@ -2,11 +2,11 @@
 
 ## Informations
 
-### Version: 1.0
+### Version: 1.1
 
 ### Auteur: Samuel Richard
 
-### Dernière mise à jour: 2023-05-04
+### Dernière mise à jour: 2023-05-23
 
 ## Description
 
