@@ -19,23 +19,20 @@ Les répertoires source et destination sont prédéfinis et ne peuvent être mod
 Chemin du répertoire source:  
 
 ```
-École Secondaire Duval\Site Établissements scolaires - Partage de fichier\input
+École Secondaire Duval\Communications Interscolaire ESD - Partage de fichiers\input
 ```
 
 Chemin du répertoire destination:  
 
 ```
-École Secondaire Duval\Site Établissements scolaires - Partage de fichier\Nuage(output)
+École Secondaire Duval\Communications Interscolaire ESD - Partage de fichiers\Nuage(output)
 ```
 
 Le répertoire source contient les dossiers exportés par _COBA - Pédagogie_ et identifiés par code d'organisme. Chaque dossier ne devrait contenir que les fichiers PDF des bulletins.
 
 Le répertoire destination contient les dossiers de toutes les écoles identifiés par code d'organisme et nom selon la syntaxe suivante : `code d'organisme - nom de l'école`. Chaque dossier d'école contient des sous-dossiers de session dont la création et la suppression sont gérées par le programme. Chaque sous-dossier de session contient les bulletins de tous les élèves de l'école pour la session correspondante. Par exemple, le dossier `Nuage(output)\123456 - École secondaire Duval\Ete2023` contient les bulletins de tous les élèves de l'École secondaire Duval pour la session d'été 2023.
 
-<img
-src="./assets/Capture_Structure.jpg"
-title="structure du répertoire"
-/>
+![Structure du répertoire] (./assets/Capture_Structure.jpg)
 
 ## Utilisation
 
