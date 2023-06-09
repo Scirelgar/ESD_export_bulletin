@@ -32,7 +32,7 @@ Le répertoire source contient les dossiers exportés par _COBA - Pédagogie_ et
 
 Le répertoire destination contient les dossiers de toutes les écoles identifiés par code d'organisme et nom selon la syntaxe suivante : `code d'organisme - nom de l'école`. Chaque dossier d'école contient des sous-dossiers de session dont la création et la suppression sont gérées par le programme. Chaque sous-dossier de session contient les bulletins de tous les élèves de l'école pour la session correspondante. Par exemple, le dossier `Nuage(output)\123456 - École secondaire Duval\Ete2023` contient les bulletins de tous les élèves de l'École secondaire Duval pour la session d'été 2023.
 
-![Structure du répertoire] (./assets/Capture_Structure.jpg)
+![Structure du répertoire](./assets/Capture_Structure.jpg)
 
 ## Utilisation
 
