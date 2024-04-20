@@ -10,7 +10,7 @@
 
 ## Description
 
-Ce programme permet d'exporter des fichiers à l'intérieur du site SharePoint _Établissement scolaires - Partage de fichier_ hébergé par l'École secondaire Duval en plus de géréer la création et la suppression des dossiers de session pour chaque école.
+Ce programme permet d'exporter des fichiers à l'intérieur du site SharePoint _Établissement scolaires - Partage de fichier_ hébergé par l'École secondaire Duval en plus de gérer la création et la suppression des dossiers de session pour chaque école.
 
 ## Structure des fichiers
 
