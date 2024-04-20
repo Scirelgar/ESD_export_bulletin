@@ -3,19 +3,18 @@
 chcp 1252 >nul
 
 goto :Commentaire
-Ce script effectue une copie de tous les bulletins se trouvcant dans dirInput vers dirNuage en fonction du dossier de session saisi par l'utilisateur.
+Ce script effectue une copie de tous les bulletins se trouvant dans dirInput vers dirNuage en fonction du dossier de session saisi par l'utilisateur.
 
 Auteur: Samuel Richard
 Date: 2023-05-03
-Version: 1.0
 :Commentaire
 
 SETLOCAL EnableExtensions ENABLEDELAYEDEXPANSION
 
 :: Variables
-set dirInput=%USERPROFILE%\École Secondaire Duval\Communications Interscolaire ESD - Partage de fichiers\input
-set dirNuage=%USERPROFILE%\École Secondaire Duval\Communications Interscolaire ESD - Partage de fichiers\Nuage(output)
-set dirEngine=%USERPROFILE%\École Secondaire Duval\Communications Interscolaire ESD - Partage de fichiers\Engine
+set dirInput=%USERPROFILE%\ï¿½cole Secondaire Duval\Communications Interscolaire ESD - Partage de fichiers\input
+set dirNuage=%USERPROFILE%\ï¿½cole Secondaire Duval\Communications Interscolaire ESD - Partage de fichiers\Nuage(output)
+set dirEngine=%USERPROFILE%\ï¿½cole Secondaire Duval\Communications Interscolaire ESD - Partage de fichiers\Engine
 set folderName=
 set folderA=
 set folderB=

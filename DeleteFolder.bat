@@ -7,11 +7,10 @@ Ce script efface les sous-dossiers dans dirNuage d'un nom specifique.
 
 Auteur: Samuel Richard
 Date: 2023-05-03
-Version: 1.0
 :Commentaire
 
 :: Variables
-set dirNuage=%USERPROFILE%\École Secondaire Duval\Communications Interscolaire ESD - Partage de fichiers\Nuage(output)
+set dirNuage=%USERPROFILE%\ï¿½cole Secondaire Duval\Communications Interscolaire ESD - Partage de fichiers\Nuage(output)
 set folderA=
 set folderName=
 

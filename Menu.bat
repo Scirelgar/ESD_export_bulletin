@@ -7,13 +7,12 @@ Ce script imprime un menu pour l'utilisateur et appelle les scripts correspondan
 
 Auteur: Samuel Richard
 Date: 2023-05-03
-Version: 1.0
 :Commentaire
 
 SETLOCAL EnableExtensions ENABLEDELAYEDEXPANSION
 
 :: Variables
-set dirEngine=%USERPROFILE%\École Secondaire Duval\Communications Interscolaire ESD - Partage de fichiers\Engine
+set dirEngine=%USERPROFILE%\ï¿½cole Secondaire Duval\Communications Interscolaire ESD - Partage de fichiers\Engine
 
 :: Programme principal
 :main

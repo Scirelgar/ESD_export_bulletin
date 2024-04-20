@@ -7,7 +7,6 @@ Ce script renvoi l'utilisateur à la documentation en ligne du programme.
 
 Auteur: Samuel Richard
 Date: 2023-05-03
-Version: 0.1
 :Commentaire
 
 SETLOCAL EnableExtensions ENABLEDELAYEDEXPANSION
