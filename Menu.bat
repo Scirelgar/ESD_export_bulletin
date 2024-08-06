@@ -12,7 +12,7 @@ Date: 2023-05-03
 SETLOCAL EnableExtensions ENABLEDELAYEDEXPANSION
 
 :: Variables
-set dirEngine=%USERPROFILE%\ï¿½cole Secondaire Duval\Communications Interscolaire ESD - Partage de fichiers\Engine
+set dirEngine=%USERPROFILE%\École Secondaire Duval\Communication Interscolaire ESD - Partage de fichiers\Engine
 
 :: Programme principal
 :main
