@@ -47,7 +47,7 @@ Exit /b %errorlevel%
 cd "%dirNuage%"
 for /d %%b in (*) do (
     set folderB=%%b
-    set folderB=!folderB:~0,6!
+    set folderB=!folderB:~0,3!!folderB:~4,3!
     if !folderB!==!folderA! (echo Dossier trouve. & call :copyBulletins "%%a" "%%b" & goto :break)
 )
 echo Dossier non trouve.

@@ -50,7 +50,7 @@ cd "%dirNuage%"
 set found="false"
 for /d %%b in (*) do (
     set folderB=%%b
-    set folderB=!folderB:~0,6!
+    set folderB=!folderB:~0,3!!folderB:~4,3!
     if !folderB!==!folderA! echo Dossier %folderName% cree. & set !found!="true" & call :createSubFolder "%%b" & goto :break
     
     )

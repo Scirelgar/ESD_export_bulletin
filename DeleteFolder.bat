@@ -36,7 +36,6 @@ Exit /b %errorlevel%
 cd "%dirNuage%"
 for /d %%a in (*) do (
     set folderA=%%a
-    echo !folderA!
     call :folderDelete
     echo _______________
     )
@@ -45,6 +44,7 @@ goto :eof
 :: Cette fonction efface le sous-dossier de nom folderName dans le sous-dossier de dirNuage
 :folderDelete
 set dirEcoleDest=%dirNuage%\%folderA%
+echo %dirEcoleDest%
 cd "%dirEcoleDest%"
 if exist "%folderName%" (rd /s /q "%folderName%" & echo Dossier "%folderName%" efface.) else echo Dossier "%folderName%" non trouve.
 goto :eof
